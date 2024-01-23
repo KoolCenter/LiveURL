@@ -33,11 +33,13 @@ jobs:
             echo "is_changed=0" >> $GITHUB_ENV
           fi
 
-      - name: Commit and Push changes
+    - name: Commit and Push changes
         if: env.is_changed == '1'
         run: |
           git config --local user.email "120372062+KoolCenter@users.noreply.github.com"
           git config --local user.name "KoolCenter"
           git add .
           git commit -m "Auto-update .m3u files"
-          git push
+          git -c http.extraHeader="AUTHORIZATION: bearer ${GITHUB_TOKEN}" push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
