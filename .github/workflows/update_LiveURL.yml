@@ -2,7 +2,7 @@ name: Update Live IPTV
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - '.github/workflows/update_LiveURL.yml'
       - 'LiveURL*'
