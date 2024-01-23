@@ -1,9 +1,15 @@
 #!/bin/bash
 
-mkdir -p KoolCenter/LiveURL
-# Download the M3U files into the specified directory
-wget -q -O KoolCenter/LiveURL/IPTV.m3u https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
-wget -q -O KoolCenter/LiveURL/Global.m3u https://raw.githubusercontent.com/YueChan/Live/main/Global.m3u
+# Create the LiveURL directory if it doesn't exist
+mkdir -p "${GITHUB_WORKSPACE}/LiveURL"
 
-# Concatenate the files and save in the specified directory
-cat KoolCenter/LiveURL/IPTV.m3u KoolCenter/LiveURL/Global.m3u > KoolCenter/LiveURL/Combined.m3u
+# Navigate to the LiveURL directory
+cd "${GITHUB_WORKSPACE}/LiveURL"
+
+# Download the M3U files directly into the LiveURL directory
+wget -q -O IPTV.m3u https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
+wget -q -O Global.m3u https://raw.githubusercontent.com/YueChan/Live/main/Global.m3u
+
+# Concatenate the files and save as Combined.m3u in the LiveURL directory
+cat IPTV.m3u Global.m3u > Combined.m3u
+
