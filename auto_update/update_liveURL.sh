@@ -7,4 +7,4 @@ wget -q -O IPTV.m3u https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
 wget -q -O Global.m3u https://raw.githubusercontent.com/YueChan/Live/main/Global.m3u
 
 # Concatenate the files and save as Combined.m3u in the LiveURL directory
-cat LiveURL/IPTV.m3u <(tail -n +2 LiveURL/Global.m3u) > LiveURL/Combined.m3u
+cat IPTV.m3u <(tail -n +2 Global.m3u) > Combined.m3u
