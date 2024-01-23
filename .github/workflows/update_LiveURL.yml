@@ -40,6 +40,4 @@ jobs:
           git config --local user.name "KoolCenter"
           git add .
           git commit -m "Auto-update .m3u files"
-          git -c http.extraHeader="AUTHORIZATION: bearer ${GITHUB_TOKEN}" push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git -c http.extraHeader="AUTHORIZATION: bearer ${{ secrets.MY_PAT }}" push
