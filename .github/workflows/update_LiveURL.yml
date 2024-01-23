@@ -39,5 +39,10 @@ jobs:
           git config --local user.email "120372062+KoolCenter@users.noreply.github.com"
           git config --local user.name "KoolCenter"
           git add .
-          git commit -m "Auto-update .m3u files"
-          git -c http.extraHeader="AUTHORIZATION: bearer ${{ secrets.MY_PAT }}" push
+          git commit -m "Actions Auto Update at $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+          
+      - name: Delete old workflow runs
+        uses: GitRML/delete-workflow-runs@main
+        with:
+          keep_minimum_runs: 30
