@@ -1,10 +1,6 @@
 #!/bin/bash
 
-# Assuming the script is being run from the root of your repository
-# and that the 'LiveURL' directory is also at the root of your repository
-
-# Navigate to the LiveURL directory
-cd "${GITHUB_WORKSPACE}/LiveURL" || exit
+pwd
 
 # Download the M3U files directly into the LiveURL directory
 wget -q -O IPTV.m3u https://raw.githubusercontent.com/YueChan/Live/main/IPTV.m3u
