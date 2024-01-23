@@ -24,7 +24,7 @@ jobs:
 
       - name: Run update script
         run: |
-          cd LiveURL/auto_update
+          cd "${GITHUB_WORKSPACE}/auto_update"
           bash update_liveURL.sh
 
       - name: Commit to repo
