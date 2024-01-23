@@ -24,6 +24,8 @@ jobs:
 
       - name: Run update script
         run: |
+          pwd
+          ls -alh
           cd "${GITHUB_WORKSPACE}/auto_update"
           bash update_liveURL.sh
 
