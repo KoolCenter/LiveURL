@@ -7,7 +7,7 @@ on:
       - 'auto_update/**'
   workflow_dispatch:
   schedule:
-    - cron: '01 2,4,6,8,10,12,15 * * *'
+    - cron: '01,30 * * * *'
 
 jobs:
   build:
