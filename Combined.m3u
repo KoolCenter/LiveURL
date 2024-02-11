@@ -281,15 +281,13 @@ http://[2409:8087:7000:20:1000::22]:6060/000000001000/2000000003000000041/index.
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/2000000003000000067/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000067&livemode=1&stbId=3
 #EXTINF:-1 tvg-name="CNNinternational" tvg-logo="https://epg.112114.xyz/logo/CNN国际.png" group-title="国际",CNN International
 https://d30x5vsa85tvmd.cloudfront.net/index_5.m3u8
-#EXTINF:-1 tvg-id="12188" tvg-name="bbc news" tvg-logo="https://epg.pw/media/images/channel/2022/05/06/large/20220506164717897792_32.png" group-title="国际",BBC News
-https://epg.pw/stream/a6cbddde9b44bf2d5c0d0b08a4b48dc86da793a9bef40c18b1f616782744db4c.m3u8
-#EXTINF:-1  tvg-id="Foxnewyork" tvg-name="Foxnewyork" tvg-logo="https://epg.112114.xyz/logo/FOX5.png" group-title="国际",FOX New York
+#EXTINF:-1 tvg-id="Foxnewyork" tvg-name="Foxnewyork" tvg-logo="https://epg.112114.xyz/logo/FOX5.png" group-title="国际",FOX New York
 http://38.96.178.201:80/live/FOXHD/index.m3u8
-#EXTINF:-1  tvg-id="Foxnews" tvg-name="Foxnews" tvg-logo="https://epg.112114.xyz/logo/FOXNEWS.png" group-title="国际",FOX News
+#EXTINF:-1 tvg-id="Foxnews" tvg-name="Foxnews" tvg-logo="https://epg.112114.xyz/logo/FOXNEWS.png" group-title="国际",FOX News
 http://38.96.178.201:80/live/FOXNEWS/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/LNF.png" group-title="国际",Live Now FOX
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
-#EXTINF:-1  tvg-id="nbcnewyork" tvg-name="nbcnewyork" tvg-logo="https://epg.112114.xyz/logo/NBCNEWS.png" group-title="国际",NBC New York
+#EXTINF:-1 tvg-id="nbcnewyork" tvg-name="nbcnewyork" tvg-logo="https://epg.112114.xyz/logo/NBCNEWS.png" group-title="国际",NBC New York
 http://38.96.178.201/live/NBCHD/index.m3u8
 #EXTINF:-1 tvg-logo="https://epg.112114.xyz/logo/OAN.png" group-title="国际",One America News
 http://n1.klowdtv.net/live1/oan_1080p/chunks.m3u8
