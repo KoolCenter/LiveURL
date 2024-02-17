@@ -279,8 +279,8 @@ http://[2409:8087:1a01:df::7005]:80/ottrrs.hl.chinamobile.com/PLTV/88888888/224/
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/2000000003000000041/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000041&livemode=1&stbId=3
 #EXTINF:-1 group-title="数字",精品萌宠
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/2000000003000000067/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000067&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="CNNinternational" tvg-logo="https://epg.112114.xyz/logo/CNN国际.png" group-title="国际",CNN International
-https://d30x5vsa85tvmd.cloudfront.net/index_5.m3u8
+#EXTINF:-1 tvg-name="CNNinternational" tvg-logo="https://epg.112114.xyz/logo/CNN国际.png" group-title="国际",CNN News
+http://38.96.178.201:80/live/CNNHD/index.m3u8
 #EXTINF:-1 tvg-id="Foxnewyork" tvg-name="Foxnewyork" tvg-logo="https://epg.112114.xyz/logo/FOX5.png" group-title="国际",FOX New York
 http://38.96.178.201:80/live/FOXHD/index.m3u8
 #EXTINF:-1 tvg-id="Foxnews" tvg-name="Foxnews" tvg-logo="https://epg.112114.xyz/logo/FOXNEWS.png" group-title="国际",FOX News
