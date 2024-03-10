@@ -300,7 +300,7 @@ http://[2409:8087:7000:20:1000::22]:6060/000000001000/2000000003000000041/index.
 #EXTINF:-1 group-title="数字",精品萌宠
 http://[2409:8087:7000:20:1000::22]:6060/000000001000/2000000003000000067/index.m3u8?channel-id=hnbblive&Contentid=2000000003000000067&livemode=1&stbId=3
 #EXTINF:-1 group-title="国际",CNN
-https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+https://i.mjh.nz/SamsungTVPlus/GBBD8000016N.m3u8
 #EXTINF:-1 group-title="国际",ABC
 https://i.mjh.nz/SamsungTVPlus/USBC39000171G.m3u8
 #EXTINF:-1 group-title="国际",Live Now FOX
